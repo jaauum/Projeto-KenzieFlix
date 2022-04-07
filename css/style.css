@@ -1,0 +1,99 @@
+html, body, section, img, h1, ul, li, p{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style: none;
+}
+
+body{
+    background: #000000;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+section img.logo{
+    display: flex;
+    margin:  42px auto 0 auto;
+    width: 229px;
+    height: 68px;
+}
+
+section h1{
+    margin: 73px auto 61px auto;
+    width: 334px;
+    height: 42px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+section ul{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: 0 auto;
+}
+
+section ul li{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 100px;
+}
+
+.user:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
+
+section ul li p{
+    display: flex;
+    justify-content: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    margin: 16px 0;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 102px auto 88px auto;
+    width: 206px;
+    height: 50px;
+    background: #000000;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+button:hover{
+    background-color: #FFFFFF;
+    border: 1.5px solid #000000;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    margin: auto;
+
+}
